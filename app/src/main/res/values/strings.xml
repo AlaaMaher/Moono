@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Moono</string>
+    <string name="checkin">Checkin</string>
+    <string name="moono">Hi there Im moono : ) Id like to tell you a little bit about my self
+just choose one of the stories ;)
+Ill see you there</string>
+    <string name="hint">Enter your name</string>
+</resources>

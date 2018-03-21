@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="myapplication.sairamkrishna.example.com.moono"
+    android:hardwareAccelerated="true"
+    android:installLocation="auto"
+    android:largeHeap="true"
+    android:supportsRtl="true">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Options.optionsActivity" />
+        <activity android:name=".Options.Gallary.Images" />
+        <activity android:name=".Options.LearnAndEarn.FunFacts" />
+        <activity android:name=".Options.StoryAndChallenge.Story.Story" />
+        <activity android:name=".Options.StoryAndChallenge.Story.StoryContent" />
+        <activity android:name=".Options.StoryAndChallenge.challenges.challenge" />
+        <activity android:name=".Options.Gallary.ImageViewr" />
+        <activity android:name=".Options.LearnAndEarn.FunFactsDetails" />
+        <activity android:name=".Options.BookItToTheMoon.SolarSimulation" />
+        <activity android:name=".Options.LearnAndEarn.ApolloMissions" />
+        <activity android:name=".Options.StoryAndChallenge.challenges.Ch1" />
+        <activity android:name=".Options.StoryAndChallenge.challenges.Ch2" />
+        <activity android:name=".Options.LearnAndEarn.ApolloDetail" />
+        <activity android:name=".Options.about" />
+        <activity android:name=".Options.Gallary.LatestImageByNasa"></activity>
+    </application>
+
+</manifest>

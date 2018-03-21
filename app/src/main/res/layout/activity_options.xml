@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+    android:gravity="center_horizontal"
+    tools:context=".Options.optionsActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#6e599f">
+            <ImageView
+                android:padding="2dp"
+                android:layout_width="0dp"
+                android:layout_weight=".6"
+                android:layout_height="50dp"
+                android:src="@drawable/moon"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:paddingLeft="2dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Ahmed Ayman"
+                android:id="@+id/coming_name"
+                android:textColor="#ffff"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#5adddddd"
+                />
+            <TextView
+                android:textSize="12dp"
+                android:layout_width="0dp"
+                android:layout_weight=".7"
+                android:layout_height="wrap_content"
+                android:text="You  have"
+              android:textColor="#ffff"
+                android:layout_marginLeft="8dp"
+                />
+            <TextView
+                android:textColor="#ffff"
+                android:textSize="12dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:text="0 Moonos"
+                android:layout_height="wrap_content"
+                android:id="@+id/player_points"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:layout_width="200dp"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+    android:layout_gravity="right"
+                >
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/welcome"/>
+
+</LinearLayout>
+            </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    >
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+<Button
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:text="moon location"
+    android:id="@+id/moon_location"
+    />
+        <Button
+            android:layout_marginTop="8dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="gallary"
+            android:id="@+id/galary"
+            />
+        <Button
+            android:layout_marginTop="8dp"
+            android:layout_margin="5dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+android:text="learn and earn"
+            android:id="@+id/stories"
+            />
+        <Button
+            android:layout_marginTop="8dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+        android:text="challenge your self"
+            android:id="@+id/settings"
+            />
+
+
+
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>

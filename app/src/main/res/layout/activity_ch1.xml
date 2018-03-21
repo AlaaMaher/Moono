@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Challenge yourself!"
+            android:textSize="25dp"
+            android:background="#000000"
+            android:textColor="#ffff"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/activity_vertical_margin"
+            />
+        <TextView
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:textColor="#112222"
+            android:textStyle="bold"
+
+            android:layout_height="wrap_content"
+            android:text="Apollo 12 is the first mission to land on the moon?"
+            android:padding="@dimen/activity_vertical_margin"
+            android:textSize="20dp"
+            android:id="@+id/question1"
+            />
+
+        <RadioGroup
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFA01C10"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="true"
+                android:checked="false"
+                android:id="@+id/r11"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFA01C10"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="false"
+                android:id="@+id/r21"
+                android:checked="false" />
+
+        </RadioGroup>
+
+        <TextView
+
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:textColor="#112222"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="The first humans to walk on another planetary body were Neil Armstrong ?"
+            android:padding="@dimen/activity_vertical_margin"
+            android:textSize="20dp"
+            android:id="@+id/question2"
+
+            />
+        <RadioGroup
+
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFA01C10"
+                android:textSize="20dp"
+                android:textStyle="bold"  android:text="true"
+                android:checked="false"
+                android:id="@+id/r31" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFA01C10"
+                android:textSize="20dp"
+                android:textStyle="bold"  android:text="false"
+                android:id="@+id/r41"
+                android:checked="false" />
+
+        </RadioGroup>
+        <Button
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:onClick="ch1"
+            android:text="submit"/>
+    </LinearLayout>
+</ScrollView>
